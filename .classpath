@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="basicMicroservice/|basicMicroservice/src/main/java/com/generic/engine/basicMicroservice/|basicMicroservice/src/main/java/com/generic/engine/basicMicroservice/error/|basicMicroservice/src/main/java/com/generic/engine/basicMicroservice/handler/|basicMicroservice/src/main/java/com/generic/engine/basicMicroservice/model/|basicMicroservice/src/main/java/com/generic/engine/basicMicroservice/utils/|basicMicroservice/src/main/resources/|basicMicroservice/src/test/java/com/generic/engine/basicMicroservice/handler/|basicMicroservice/target/|basicMicroservice/target/classes/|basicMicroservice/target/classes/com/generic/engine/basicMicroservice/error/|basicMicroservice/target/classes/com/generic/engine/basicMicroservice/handler/|basicMicroservice/target/classes/com/generic/engine/basicMicroservice/model/|basicMicroservice/target/classes/com/generic/engine/basicMicroservice/utils/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
