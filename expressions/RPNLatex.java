@@ -24,8 +24,8 @@ public class RPNLatex {
     public static Map createMap(){
 	Map latexKeys=new HashMap();
 	
-	latexKeys.put("mroot",() );
-	latexKeys.put("mfrac", 	);
+	//latexKeys.put("mroot",() );
+	//latexKeys.put("mfrac", 	);
 	//latexKeys.put("displaystyle");
 	
 	return latexKeys;
