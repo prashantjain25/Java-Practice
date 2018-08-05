@@ -47,7 +47,7 @@ public class MajorityElement
             if (a[i] == cand)
                 count++;
         }
-        if (count > size / 2) 
+        if (count >= size / 2) 
             return true;
         else
             return false;
@@ -57,7 +57,7 @@ public class MajorityElement
     public static void main(String[] args) 
     {
         MajorityElement majorelement = new MajorityElement();
-        int a[] = new int[]{1, 3, 3, 1, 2};
+        int a[] = new int[]{7,4,9,4,4,7,4,9,4,3};
         int size = a.length;
         majorelement.printMajority(a, size);
     }

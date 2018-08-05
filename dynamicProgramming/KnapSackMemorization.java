@@ -1,5 +1,9 @@
 package dynamicProgramming;
 
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.stream.Stream;
+
 public class KnapSackMemorization {
 
     public static int recursiveVal(int n, int[] wt, int[] val, int W) {
@@ -16,6 +20,10 @@ public class KnapSackMemorization {
     int  W = 50;
     int n = val.length;
     System.out.println(recursiveVal(n, wt, val, W));
+    HashMap<Integer, String> map=new HashMap<>();
+    map.put(1, "A");
+    map.entrySet().stream().filter(x-> x.getValue().equals("A")).forEach(System.out::println);
+   // ((Collection) map).stream().filter(x->((HashMap) x).get(1)).collect(System.out.println());
     }
 
 }
